@@ -1,7 +1,67 @@
+body {
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/143/171/original/clock...jpeg?1726152266");
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  background-size: cover;
+}
+
 h1 {
   text-align: center;
+}
+h2 {
+  margin: 0 0 5px;
+  font-size: 28px;
+}
+
+select {
+  display: block;
+  width: 100%;
+  font-size: 18px;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+strong {
+  color: white;
+}
+
+.container {
+  max-width: 600px;
+  margin: 60px auto;
+  background-color: black;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.city {
+  display: flex;
+  margin: 10px 0;
+  justify-content: space-between;
+  padding: 30px 0;
+  border-bottom: 1px dashed rgba(238, 234, 234, 0.2);
+}
+
+.city:last-child {
+  border: none;
+}
+
+.date {
+  opacity: 0.6;
+}
+
+.time {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.time small {
+  font-size: 23px;
+  vertical-align: middle;
+  line-height: 47px;
 }
 
 footer {
   text-align: center;
+  font-size: 15px;
+  color: black;
 }
