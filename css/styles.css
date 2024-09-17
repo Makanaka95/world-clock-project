@@ -1,5 +1,5 @@
 body {
-  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/143/171/original/clock...jpeg?1726152266");
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/144/016/original/clock_another.jpeg?1726594222");
   font-family: Arial, Helvetica, sans-serif;
   color: white;
   background-size: cover;
@@ -22,7 +22,7 @@ select {
 }
 
 strong {
-  color: white;
+  color: rgb(94, 93, 93);
 }
 
 .container {
@@ -63,5 +63,9 @@ strong {
 footer {
   text-align: center;
   font-size: 15px;
-  color: black;
+  color: rgba(2, 0, 10, 0.845);
+}
+
+a {
+  color: rgb(11, 16, 17);
 }
