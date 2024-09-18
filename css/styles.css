@@ -31,6 +31,7 @@ strong {
   background-color: black;
   padding: 30px;
   border-radius: 10px;
+  opacity: 0.9;
 }
 
 .city {
@@ -68,4 +69,8 @@ footer {
 
 a {
   color: rgb(11, 16, 17);
+}
+
+.link {
+  color: rgba(245, 245, 245, 0.662);
 }
